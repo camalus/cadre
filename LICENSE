@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Barry Hurd
+Copyright (c) 2026 Barry Hurd Intelligence Lab (BHIL)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,42 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+ADDITIONAL DISCLAIMER FOR AI-AUGMENTED USE
+
+The CADRE Framework specifies the design and deployment of multi-agent AI
+systems built on Anthropic Claude (Opus, Sonnet) and other frontier large
+language models. Outputs produced by such agents may contain factual errors,
+hallucinations, omissions, biased reasoning, or content that is otherwise
+incorrect or unsuitable for the intended use.
+
+Operators of CADRE-based deployments are solely responsible for:
+
+  1. ESTABLISHING APPROPRIATE HUMAN-IN-THE-LOOP (HITL) GATES for any agent
+     action that affects external parties, makes decisions of legal or
+     financial consequence, or operates in a Cynefin Complex or Chaotic
+     domain. The HITL tier taxonomy in `governance/hitl-tier-taxonomy.md`
+     is provided as guidance, not as a legal safe harbor.
+
+  2. VALIDATING AGENT OUTPUTS for accuracy, source attribution, and
+     compliance with applicable laws and regulations including but not
+     limited to the EU AI Act, Colorado AI Act, NIST AI RMF, ISO 42001,
+     and any sector-specific obligations (healthcare HIPAA, finance
+     SR 11-7 / OCC 2011-12, hiring AEDT laws, biometric BIPA, etc.).
+
+  3. MAINTAINING AUDIT TRAILS sufficient to demonstrate human oversight,
+     decision provenance, and incident response capability.
+
+  4. DISCLOSING AI INVOLVEMENT to end users and counterparties to the
+     extent required by applicable law, contract, or professional ethics.
+
+The case-law precedents documented in `governance/case-law-precedents.md`
+(Air Canada Moffatt v. Air Canada 2024 BCCRT 149; iTutor Group EEOC
+settlement 2023; Klarna AI deployment reversal 2025) make clear that
+operator liability for agent output is not abstract — it has been
+adjudicated, settled, and publicly reversed. This framework does not
+transfer that liability away from the operator.
+
+Use at your own risk and under qualified human supervision.
